@@ -1,29 +1,19 @@
 
-.footer {
-	display: flex;
-	align-items: center;
-	margin-top: 1em;
-}
-.footer_upvoteButton {
-		font-size: 2em;
-		margin-top: -.1em;
-
-}
 .upvotes_container {
         background-color:rgb(237, 242, 243);
-		border-radius: 5%;
-		display: grid;
-		grid-template-columns: auto 1fr;
-		align-items: center;
-		margin-left: .7em;
+	border-radius: 5%;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	margin-left: .7em;
 }
 .upvotes {
-		display: grid;
-		gap: .4em;
-		grid-auto-flow: column;
-		margin-right: .5em;
-		overflow: hidden;
-		padding: .3em;
+	display: grid;
+	gap: .4em;
+	grid-auto-flow: column;
+	margin-right: .5em;
+	overflow: hidden;
+	padding: .3em;
 }
 
 .upvotes:empty {
@@ -31,17 +21,17 @@
 }
 
 .upvotes_item {
-			border: 1px solid black;
-			border-radius: 50%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-size: .9em;
-			height: 2em;
-			width: 2em;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .9em;
+	height: 2em;
+	width: 2em;
 }
 	
 
 .upvotes_text {
-		white-space: nowrap;
+	white-space: nowrap;
 }
